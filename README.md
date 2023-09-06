@@ -1,6 +1,6 @@
 # Challenge Hotel Alura Oracle Next Education G5
 
-![](imgRepositorio/aH-150px.png)
+![](src/imgRepositorio/aH-150px.png)
 
 ## Tencnologías utilizadas
 
@@ -18,33 +18,27 @@ Este proyecto esta enfocado al uso de Java y JDBC para la inclusión de una base
 de la aplicación de escritorio se han establecido diferentes funcionalidades para poder administrar un sistema de
 reservas y huespedes.
 
-## ERM database
-
-Esquema visual de las entidades, atributos y relaciones de la base de datos.
-
-![](imgRepositorio/ERM database control_de_hotel.jpeg)
-
 # Funcionalidades
 
 ## 1. Inicio
 
 Esta es la ventana de Inicio del programa para dar acceso al sistema cuando presionamos el boton de login para ingresar los datos de admin del sistema para el proceso de reserva en el hotel.
 
-![](imgRepositorio/ventana-inicio.jpeg)
+![](src/imgRepositorio/ventana-inicio.jpeg)
 
 ## 2. Login
 
 Por el momento el sistema de login hace un llamado a la base de datos preguntando si la información de usuario y contraseña
 ingresados en el formulario se encuentran ingresadas en la respectiva tabla llamada user.
 
-![](imgRepositorio/ventana-login.png)
+![](src/imgRepositorio/ventana-login.png)
 
 ## 3. Menú principal
 
 Esta ventana permite el acceso a las principales funciones que el software permite realizar detallando cada una de ellas,
 ademas de especificar la fecha del sistema en la que se esta ejecutando.
 
-![](imgRepositorio/ventana-principal.jpeg)
+![](src/imgRepositorio/ventana-principal.jpeg)
 
 ## 4. Registro de reservas
 
@@ -62,7 +56,7 @@ Como regla de negocio se estableció que el valor por noche se determina de la s
 Finalmente al dar clic en el botón siguiente se realiza el proceso de guardado de la información en la tabla de reserva dentro
 de la base de datos.
 
-![](imgRepositorio/ventana-reservas.png)
+![](src/imgRepositorio/ventana-reservas.png)
 
 ## 5. Registro Huespedes
 
@@ -74,14 +68,14 @@ de tipos de datos.
 Al dar clic en el boton guardar se genera un nuevo registro en la base de datos con la información del cliente ingresada, donde
 el numero de reserva es Clave foranea de la tabla de reserva.
 
-![](imgRepositorio/ventana-Huespedes.png)
+![](src/imgRepositorio/ventana-Huespedes.png)
 
 ## 6. Sistema de Busqueda
 
 En esta ventana se pueden observar todos los registros que están ingresados en la base de datos en sus respectivas tablas como se
 puede ver a continuación:
 
-![](imgRepositorio/ventana-listar-reservas.png) ![](imgRepositorio/Ventana-listar-huespedes.png)
+![](src/imgRepositorio/ventana-listar-reservas.png) ![](src/imgRepositorio/Ventana-listar-huespedes.png)
 
 También dentro de este sistema se pueden realizar busquedas por dos parametros que son:
 
@@ -90,21 +84,21 @@ También dentro de este sistema se pueden realizar busquedas por dos parametros 
 
 ### Busqueda por id de reserva
 
-![](imgRepositorio/Busqueda-huesped-por-id-reserva.png) ![](imgRepositorio/busqueda-reserva-por-id.png)
+![](src/imgRepositorio/Busqueda-huesped-por-id-reserva.png) ![](src/imgRepositorio/busqueda-reserva-por-id.png)
 
 ### Busqueda por apellido de huesped
 
-![](imgRepositorio/Busqueda-huesped-por-apellido.png) ![](imgRepositorio/busqueda-reserva-por-apellido-huesped.png)
+![](src/imgRepositorio/Busqueda-huesped-por-apellido.png) ![](src/imgRepositorio/busqueda-reserva-por-apellido-huesped.png)
 
 Adicionalmente, se puede realizar la edicion de los campos de la tabla desplegada de los huespedes y de las reservas, donde también
 cuentan con la validación para no dejar campos en blanco y para no repetir los id's de huéspedes y reservas.
 
-![](imgRepositorio/confirmacion-de-edicion.png)
+![](src/imgRepositorio/confirmacion-de-edicion.png)
 
 Finalmente, al seleccionar un registro de la tabla de reservas o huéspedes y presionar el botón de eliminar se retira de la tabla de la view
 y también de la base de datos.
 
-![](imgRepositorio/confirmacion-eliminacion.png)
+![](src/imgRepositorio/confirmacion-eliminacion.png)
 
 ## Autor
 
